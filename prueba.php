@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My first PHP page</h1>
-
 <?php
-echo "Hello World!";
+$t = 2;
+if ($t == 2) {
+    echo "igual 2";
+} else {
+    echo "no es igual a 2"
+}
 ?>
-
-</body>
-</html>
